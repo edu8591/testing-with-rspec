@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-require_relative '../../app/models/school.rb'
+require_relative '../../app/models/school'
 
 RSpec.describe School do
   it 'has a name' do

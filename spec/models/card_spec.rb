@@ -1,4 +1,4 @@
-require_relative "../../app/models/card.rb"
+require_relative '../../app/models/card'
 
 RSpec.describe Card do
   it 'has a rank' do
