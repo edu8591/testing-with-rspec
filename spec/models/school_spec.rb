@@ -12,6 +12,7 @@ RSpec.describe School do
   end
 
   it 'should start off with no students' do
-    expect(@school.students).to eq([])
+    # expect(@school.students).to eq([])
+    expect(@school.students).to be_empty
   end
 end
