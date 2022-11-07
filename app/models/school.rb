@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Documentacion de School
 class School
   attr_reader :name, :students
 
