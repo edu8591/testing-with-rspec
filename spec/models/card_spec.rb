@@ -13,6 +13,7 @@ RSpec.describe Card do
 
   let(:card) { Card.new 'Ace', 'Spades' }
 
+
   it 'has a rank that can change' do
     # expect(card.rank).to eq('Ace') # using the method
     # expect(@card.rank).to eq('Ace') # using the before hook
