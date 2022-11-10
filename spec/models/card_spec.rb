@@ -17,11 +17,18 @@ RSpec.describe Card do
     # expect(card.rank).to eq('Ace') # using the method
     # expect(@card.rank).to eq('Ace') # using the before hook
     expect(card.rank).to eq('Ace')
-    card.ramk = 'Queen'
+    card.rank = 'Queen'
     expect(card.rank).to eq('Queen') # This will not work when using the helper method
   end
 
   it 'has a suit' do
     expect(card.suit).to eq('Spades')
+  end
+
+  it 'has custom error message' do
+    comparison = 'Hearts'
+    msg = "card.suit is expected to be #{comparison} but got #{card.suit} instead!"
+
+    expect(card.suit).to eq(comparison), msg
   end
 end
