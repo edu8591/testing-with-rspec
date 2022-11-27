@@ -4,7 +4,7 @@ require_relative '../../app/models/card'
 
 RSpec.describe Card do
   # def card
-  #   card = Card.new 'Ace', 'Spades'
+  #   Card.new 'Ace', 'Spades'
   # end
 
   # before do
