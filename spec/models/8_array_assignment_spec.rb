@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 =begin
 1) Create a new ​array_spec.rb​ file.
 2) Create an example group using ​RSpec.describe​ with an argument of ​Array​.
