@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe 'predicate matchers' do
   let(:result) { 16 / 2 }
 
