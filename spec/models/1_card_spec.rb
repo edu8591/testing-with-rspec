@@ -30,6 +30,7 @@ RSpec.describe Card do
     comparison = 'Hearts'
     msg = "card.suit is expected to be #{comparison} but got #{card.suit} instead!"
 
-    expect(card.suit).to eq(comparison), msg
+    # comparison
+    expect(card.suit).to eq('Spades'), msg
   end
 end

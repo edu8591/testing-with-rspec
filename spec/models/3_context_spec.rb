@@ -4,10 +4,14 @@ RSpec.describe '#even? method' do
   # when testing instance method we start the method with # and with a . for class name
 
   context 'with even number' do
-    expect(4.even?).to eq(true)
+    it 'should return true' do
+      expect(4.even?).to eq(true)
+    end
   end
 
   context 'with odd number' do
-    expect(1.even?).to eq(false)
+    it 'should return false' do
+      expect(1.even?).to eq(false)
+    end
   end
 end

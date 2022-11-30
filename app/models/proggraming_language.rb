@@ -1,7 +1,7 @@
 class ProgrammingLanguage
   attr_reader :name
 
-  def initialize(name='ruby')
+  def initialize(name = 'Ruby')
     @name = name
   end
 end

@@ -9,7 +9,7 @@ RSpec.describe 'start_with and end_with matchers' do
   end
 
   # it works with more than arrays
-  copntext [:a, :b, :c] do
+  context [:a, :b, :c] do
     it 'should check for elements at the begining or end of the array' do
       expect(subject).to start_with(:a)
       expect(subject).to start_with(:a, :b)

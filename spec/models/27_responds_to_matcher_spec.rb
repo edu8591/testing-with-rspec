@@ -1,3 +1,5 @@
+require_relative '../../app/models/hot_chocolate'
+
 RSpec.describe HotChocolate do
   it ' responds_to matcher confirms that an object can responds to a method' do
     expect(subject).to respond_to(:drink)
@@ -6,7 +8,7 @@ RSpec.describe HotChocolate do
   end
 
   it ' confirms as well than an object can respond to a method with arguments' do
-    expect(subject).to respond_to(:purchse).with(1).arguments
+    expect(subject).to respond_to(:purchase).with(1).arguments
     # checks that it needs only 1 argument
   end
 end
